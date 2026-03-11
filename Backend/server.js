@@ -31,7 +31,7 @@ connectDB();
 connectCloudinary();
 
 
-const allowedOrigins = ['https://artisanbazzar.vercel.app', 'https://artisanadmin.vercel.app','http://localhost:5174','http://localhost:5173'];
+const allowedOrigins = ['https://artisanbazzar.vercel.app','https://artisanbazzar.vercel.app', 'https://artisanadmin.vercel.app','http://localhost:5174','http://localhost:5173'];
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 
 app.use(express.json());
